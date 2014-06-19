@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>AngularJSRangyHiglighter</title>
+<script
+	src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.5/angular.min.js"></script>
+<script type="text/javascript"
+	src="http://rangy.googlecode.com/svn/trunk/dev/uncompressed/rangy-core.js"></script>
+<script type="text/javascript"
+	src="http://rangy.googlecode.com/svn/trunk/dev/uncompressed/rangy-textrange.js"></script>
+<script type="text/javascript"
+	src="http://rangy.googlecode.com/svn/trunk/dev/uncompressed/rangy-cssclassapplier.js"></script>
+<script type="text/javascript"
+	src="http://rangy.googlecode.com/svn/trunk/dev/uncompressed/rangy-highlighter.js"></script>
+<script src="./app.js"></script>
+<style>
+.Highlight {
+	background-color: #0F0;
+}
+
+.Content {
+	border: 1px solid #00F;
+	padding: 20px;
+	width: 40%;
+}
+</style>
+</head>
+<body>
+	<div ng-app="app">
+
+		<ng-rangy> The content is: </ng-rangy>
+
+	</div>
+</body>
+</html>
